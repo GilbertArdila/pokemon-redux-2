@@ -1,0 +1,9 @@
+.Searcher{
+    position: relative;
+    left: calc(36%);
+    width: 50%;
+    max-width: 250px;
+    padding: 5px;
+    margin: 20px auto;
+   border-radius: 5px;
+}

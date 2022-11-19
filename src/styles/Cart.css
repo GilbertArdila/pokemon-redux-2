@@ -1,0 +1,49 @@
+.Cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height:420px;
+    padding: 3px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.Cart-star{
+    position: relative;
+    top: -9px;
+    left: 210px;
+    width:24px;
+    height: 24px;
+   
+}
+.Cart-name{
+    position: relative;
+    top: -35px;
+    left:0;
+    right: 0;
+}
+.Cart-image{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+.Cart-type,
+.Cart-abilities{
+    width: auto;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+.normal{
+    background-color:  rgb(80, 80, 213);
+}
+.poison{
+    background-color:  #008000;
+}
+.fire{
+    background-color: orange;
+}
+.water{
+    background-color: rgb(33, 33, 194);
+}

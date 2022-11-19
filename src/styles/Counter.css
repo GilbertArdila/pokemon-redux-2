@@ -1,0 +1,14 @@
+.Counter{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: center;
+}
+.Counter-increase{
+    margin-right: 20px;
+}
+.Counter-increase:hover,
+.Counter-decrease:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
