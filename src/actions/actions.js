@@ -41,3 +41,4 @@ export const setFavorite = (payload) => ({
      type: SET_MODE,
      payload
  });
+

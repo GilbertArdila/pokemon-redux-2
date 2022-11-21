@@ -1,5 +1,5 @@
 import {useEffect,useState} from 'react';
-import { List,Navbar,Searcher,Counter,Spinner } from "./components";
+import { List,Navbar,Counter,Spinner } from "./components";
 import { useSelector,useDispatch } from 'react-redux'; //sin usar connect sino hooks
 // import {connect} from 'react-redux'; para usar connect y no hooks
 import {getPokemonsWithDetails} from './actions/actions';
@@ -7,6 +7,7 @@ import { getPokemon} from './api/api';
 
 // usando connect deberíamos recibir estas props {pokemons,setPokemons}
 function App() {
+
   //usamos el hook no el connect
   //obtenemos las propiedades del estado
   const loading = useSelector(state => state.loading);
@@ -33,7 +34,7 @@ function App() {
 
   return (
     <div className={`App ${mode}`}>
-      <Navbar/>
+      <Navbar />
      
       <Counter offset={offset} setOffset={setOffset}/>
       

@@ -34,6 +34,7 @@ const Cart = ({ pokemon }) => {
 
   const handleFavorites = (id) => {
     dispatch(setFavorite({ pokemonId: id }))
+   
   };
 
 

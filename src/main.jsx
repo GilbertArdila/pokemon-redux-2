@@ -7,7 +7,6 @@ import {pokemonsReducer} from './reducers/pokemos';
 import {Provider} from 'react-redux';
 //sin redux toolkit
 import {applyMiddleware, compose, legacy_createStore as createStore} from 'redux';
-import {prefix } from './middleWares';
 
 //creamos un composedEnhancers que contenga varios enhancers para pasarlo al store
 const composeAlt =  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
